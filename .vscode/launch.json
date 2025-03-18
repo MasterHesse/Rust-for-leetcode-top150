@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Test in VSCode",
+      "type": "cargo",
+      "request": "launch",
+      "command": "test",
+      "args": [
+        "--package",
+        "top_nterview150",
+        "--lib",
+        "--",
+        "problems::merge_sorted_array::tests",
+        "--show-output"
+      ],
+      "env": {
+        "RUST_BACKTRACE": "full"
+      }
+    }
+  ]
+}
