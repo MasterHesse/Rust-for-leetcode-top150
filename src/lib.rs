@@ -1,12 +1,15 @@
 pub mod array_string;
+pub mod back_tracking;
 pub mod binary_search_tree;
 pub mod binary_tree_bfs;
 pub mod binary_tree_general;
+pub mod graph_bfs;
 pub mod graph_general;
 pub mod hashmap;
 pub mod linked_list;
 pub mod matrix;
 pub mod silding_window;
 pub mod stack;
+pub mod trie;
 pub mod two_pointer;
 pub mod utils;
